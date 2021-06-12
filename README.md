@@ -1,3 +1,4 @@
 # Quiz
 
-This is a quiz add from Hackathon. 
+This is a SwiftUI quiz app made from Hackathon. 
+
