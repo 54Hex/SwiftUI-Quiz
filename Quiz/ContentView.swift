@@ -22,7 +22,13 @@ struct ContentView: View {
                               option1: "Orange",
                               option2: "Apple",
                               option3: "Google",
-                              option4: "Tinkercademy")]
+                              option4: "Tinkercademy"),
+                     Question(title: "What is our Q&N Platform?",
+                              option1: "#text-questions",
+                              option2: "Ed",
+                              option3: "Yelling on webex",
+                              option4: "Screaming into the void")
+    ]
     
     
     
@@ -111,7 +117,6 @@ struct ContentView: View {
                     if currentQuestion == questions.count {
                         isModalPresented = true
                         currentQuestion = 0
-                        correctAnswers = 0
                     }
                     
                 })
